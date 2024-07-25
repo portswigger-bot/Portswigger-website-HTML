@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portswigger website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./footer1.css" rel="stylesheet" />
+      <footer class="footer1-container">
+        <div class="footer1-main">
+          <div class="footer1-container1">
+            <div class="footer1-container2">
+              <div class="footer1-container3">
+                <div
+                  class="footer-column-title-container1160 footer-column-title-root-class-name"
+                >
+                  <p class="footer-column-title-text1482">
+                    <span>Burp Suite</span>
+                  </p>
+                </div>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text Footer"
+                >
+                  <span>Web vulnerability scanner</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text01 Footer"
+                >
+                  <span>Burp Suite Editions</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text02 Footer"
+                >
+                  <span>Release Notes</span>
+                </span>
+              </div>
+              <div class="footer1-container4">
+                <div
+                  class="footer-column-title-container1160 footer-column-title-root-class-name1"
+                >
+                  <p class="footer-column-title-text1482">
+                    <span>Vulnerabilities</span>
+                  </p>
+                </div>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text03 Footer"
+                >
+                  <span>Cross-site scripting (XSS)</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text04 Footer"
+                >
+                  <span>SQL injection</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text05 Footer"
+                >
+                  <span>Cross-site request forgery</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text06 Footer"
+                >
+                  <span>XML external entity injection</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text07 Footer"
+                >
+                  <span>Directory traversal</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text08 Footer"
+                >
+                  <span>Server-side request forgery</span>
+                </span>
+              </div>
+              <div class="footer1-container5">
+                <div
+                  class="footer-column-title-container1160 footer-column-title-root-class-name2"
+                >
+                  <p class="footer-column-title-text1482">
+                    <span>Customers</span>
+                  </p>
+                </div>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text09 Footer"
+                >
+                  <span>Organizations</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text10 Footer"
+                >
+                  <span>Testers</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text11 Footer"
+                >
+                  <span>Developers</span>
+                </span>
+              </div>
+              <div class="footer1-container6">
+                <div
+                  class="footer-column-title-container1160 footer-column-title-root-class-name3"
+                >
+                  <p class="footer-column-title-text1482">
+                    <span>Company</span>
+                  </p>
+                </div>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text12 Footer"
+                >
+                  <span>About</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text13 Footer"
+                >
+                  <span>Careers</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text14 Footer"
+                >
+                  <span>Contact</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text15 Footer"
+                >
+                  <span>Legal</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text16 Footer"
+                >
+                  <span>Privacy Notice</span>
+                </span>
+              </div>
+              <div class="footer1-container7">
+                <div
+                  class="footer-column-title-container1160 footer-column-title-root-class-name4"
+                >
+                  <p class="footer-column-title-text1482">
+                    <span>Insights</span>
+                  </p>
+                </div>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text17 Footer"
+                >
+                  <span>Web Security Academy</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text18 Footer"
+                >
+                  <span>Blog</span>
+                </span>
+                <span
+                  href="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="footer1-text19 Footer"
+                >
+                  <span>Research</span>
+                </span>
+              </div>
+              <div class="footer1-container8">
+                <img
+                  alt="image"
+                  src="public/external/portswigger-logo.svg"
+                  class="footer1-image"
+                />
+                <div
+                  class="twitter-button-container1178 twitter-button-root-class-name"
+                >
+                  <div
+                    href="https://twitter.com/Burp_Suite"
+                    class="twitter-button-frame562210"
+                  >
+                    <div class="twitter-button-frame562610">
+                      <img
+                        alt="TwitterandXlogossvg14713"
+                        src="public/external/twitterandxlogossvg14713-0pok-200h.png"
+                        class="twitter-button-twitterand-xlogossvg110"
+                      />
+                      <span class="twitter-button-text1499">
+                        <span>[object Object]</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p class="footer1-text20 Footer">
+                  <span>© 2024 PortSwigger Ltd.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

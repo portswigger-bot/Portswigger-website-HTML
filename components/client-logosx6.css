@@ -1,0 +1,62 @@
+.client-logosx6-container {
+  gap: var(--dl-space-space-fiveunits);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.client-logosx6-image1 {
+  width: 80px;
+  object-fit: cover;
+}
+.client-logosx6-image2 {
+  width: 136px;
+  height: 30px;
+  object-fit: cover;
+}
+.client-logosx6-image3 {
+  width: 159px;
+  height: 28px;
+  object-fit: cover;
+}
+.client-logosx6-image4 {
+  width: 98px;
+  height: 32px;
+  object-fit: cover;
+}
+.client-logosx6-image5 {
+  width: 82px;
+  height: 20px;
+  object-fit: cover;
+}
+.client-logosx6-image6 {
+  width: 89px;
+  height: 27px;
+  object-fit: cover;
+}
+.client-logosx6root-class-name {
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+@media(max-width: 991px) {
+  .client-logosx6-container {
+    gap: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .client-logosx6-container {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 360px) {
+  .client-logosx6-container {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .client-logosx6root-class-name {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+}

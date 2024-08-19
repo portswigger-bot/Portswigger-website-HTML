@@ -1,4 +1,5 @@
 .quaternary-link-container {
+  gap: 8PX;
   width: auto;
   height: auto;
   display: flex;
@@ -7,12 +8,17 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.quaternary-link-link {
+  display: contents;
+}
 .quaternary-link-text {
   fill: var(--dl-color-text-text-linkorange);
   color: var(--dl-color-text-text-linkorange);
-  margin-right: var(--dl-space-space-halfunit);
+  margin-right: 0PX;
+  text-decoration: none;
 }
-.quaternary-link-chevron-down {
+.quaternary-link-chevron-right {
   width: 16px;
   height: 16px;
+  align-self: center;
 }

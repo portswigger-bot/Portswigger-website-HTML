@@ -1,0 +1,23 @@
+.minimal-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  justify-content: center;
+}
+.minimal-header-link {
+  display: contents;
+}
+.minimal-header-image {
+  width: 253px;
+  height: 40px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.minimal-headerroot-class-name {
+  background-color: #1A1A39;
+}

@@ -1,4 +1,4 @@
-.existing-ds-header-and-intro-container {
+.existing-ds-header-and-intro-container1 {
   width: auto;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.existing-ds-header-and-intro-container1 {
+.existing-ds-header-and-intro-container2 {
   width: 1000px;
   display: flex;
   align-self: center;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.existing-ds-header-and-intro-text {
+.existing-ds-header-and-intro-text1 {
   fill: var(--dl-color-text-text-headingnavy);
   color: var(--dl-color-text-text-headingnavy);
   font-size: 60px;
@@ -24,7 +24,7 @@
   margin-bottom: 40px;
   letter-spacing: -2px;
 }
-.existing-ds-header-and-intro-text1 {
+.existing-ds-header-and-intro-text2 {
   fill: transparent;
   color: #333332;
   font-size: 18px;

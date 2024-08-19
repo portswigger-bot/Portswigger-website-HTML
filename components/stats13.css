@@ -1,0 +1,132 @@
+.stats13-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.stats13-container2 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.stats13-container3 {
+  width: 100%;
+  z-index: 100;
+}
+.stats13-container4 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.stats13-container5 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.stats13-container6 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.stats13-fragment1 {
+  display: contents;
+}
+.stats13-text16 {
+  display: inline-block;
+  text-align: justify;
+}
+.stats13-fragment2 {
+  display: contents;
+}
+.stats13-text17 {
+  display: inline-block;
+}
+.stats13-fragment3 {
+  display: contents;
+}
+.stats13-text18 {
+  display: inline-block;
+}
+.stats13-fragment4 {
+  display: contents;
+}
+.stats13-text19 {
+  display: inline-block;
+  text-align: center;
+}
+.stats13-fragment5 {
+  display: contents;
+}
+.stats13-text20 {
+  display: inline-block;
+  text-align: justify;
+}
+.stats13-fragment6 {
+  display: contents;
+}
+.stats13-text21 {
+  display: inline-block;
+}
+.stats13-fragment7 {
+  display: contents;
+}
+.stats13-text22 {
+  display: inline-block;
+  text-align: center;
+}
+.stats13-fragment8 {
+  display: contents;
+}
+.stats13-text23 {
+  display: inline-block;
+  text-align: justify;
+}
+@media(max-width: 767px) {
+  .stats13-max-width {
+    flex-direction: column;
+  }
+  .stats13-container4 {
+    align-self: flex-start;
+  }
+  .stats13-container5 {
+    align-self: flex-start;
+  }
+  .stats13-container6 {
+    align-self: flex-start;
+  }
+  .stats13-text17 {
+    align-self: center;
+  }
+  .stats13-text18 {
+    align-self: center;
+  }
+  .stats13-text19 {
+    text-align: center;
+  }
+  .stats13-text21 {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .stats13-text19 {
+    align-self: center;
+    text-align: center;
+  }
+}

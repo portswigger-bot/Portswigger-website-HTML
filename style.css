@@ -8,12 +8,18 @@
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
+  --dl-color-text-blue2: #0094ffff;
+  --dl-color-text-blue3: #50b5feff;
+  --dl-color-text-blue4: #85ccfdff;
+  --dl-color-text-teal4: #86d3deff;
+  --dl-color-text-white: #ffffffff;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
   --dl-color-text-primary: rgba(0, 0, 35, 1);
+  --dl-color-text-purple4: #b2acffff;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-default-white: rgba(255, 255, 255, 1);
   --dl-color-text-tertiary: rgba(140, 141, 142, 1);
@@ -35,13 +41,17 @@
   --dl-color-theme-secondary1: #FFFFFF;
   --dl-color-theme-secondary2: #FBF1EB;
   --dl-space-space-threeunits: 48px;
+  --dl-color-backgrounds-blue1: #1353b9ff;
   --dl-color-backgrounds-blue5: #bbe2fcff;
   --dl-color-backgrounds-blue6: #f0f8fbff;
+  --dl-color-backgrounds-grey6: #f7f8f9ff;
+  --dl-color-backgrounds-teal2: #00a2b9ff;
   --dl-color-theme-neutral-dark: #191818;
   --dl-radius-radius-cardradius: 8px;
   --dl-color-backgrounds-purple5: #d4d1ffff;
   --dl-color-backgrounds-purple6: #f7f6ffff;
   --dl-color-default-enterprise6: rgba(246, 248, 252, 1);
+  --dl-color-default-whiteffffff: rgba(255, 255, 255, 1);
   --dl-color-theme-neutral-light: #FBFAF9;
   --dl-radius-radius-imageradius: 8px;
   --dl-radius-radius-inputradius: 24px;
@@ -493,6 +503,12 @@
   transform: scaleX(1);
 }
 
+.BodyRegularBold {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
 .BodyRegular {
   font-size: 14px;
   font-family: "Roboto";
@@ -500,6 +516,14 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+.HeadingHeading3 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: -0.02em;
 }
 .BodySmallBold {
   font-size: 12px;
@@ -513,7 +537,8 @@
   font-size: 22px;
   font-family: "Roboto";
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 130%;
+  letter-spacing: 0%;
   text-transform: none;
   text-decoration: none;
 }
@@ -541,11 +566,20 @@
   font-stretch: normal;
   letter-spacing: 0em;
 }
+.HeadingHeading6 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
 .Desktop-Display1 {
   font-size: 64px;
   font-family: "Roboto";
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 120%;
+  letter-spacing: -2%;
   text-transform: none;
   text-decoration: none;
 }
@@ -553,7 +587,8 @@
   font-size: 22px;
   font-family: "Roboto";
   font-weight: 400;
-  line-height: 1.15;
+  line-height: 130%;
+  letter-spacing: 0%;
   text-transform: none;
   text-decoration: none;
 }
@@ -570,14 +605,40 @@
   font-style: normal;
   font-family: Roboto;
   font-weight: 400px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.DisplayDisplay1 {
+  font-size: 64px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+.Desktop-Display2 {
+  font-size: 64px;
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-transform: none;
+  text-decoration: none;
+}
+.HeadingHeading2 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
   font-stretch: normal;
-  letter-spacing: 0em;
+  letter-spacing: -0.02em;
 }
 .Desktop-Heading1 {
   font-size: 40px;
   font-family: "Roboto";
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 120%;
+  letter-spacing: -2%;
   text-transform: none;
   text-decoration: none;
 }
@@ -594,8 +655,8 @@
   font-style: normal;
   font-family: Roboto;
   font-weight: 700px;
-  font-stretch: normal;
-  letter-spacing: -0.02em;
+  line-height: 120%;
+  letter-spacing: -2%;
 }
 .Footer {
   font-size: 13px;
@@ -609,14 +670,25 @@
   font-style: normal;
   font-family: Roboto;
   font-weight: 400px;
-  font-stretch: normal;
+  line-height: 130%;
   letter-spacing: 0em;
 }
 .Desktop-Heading3 {
   font-size: 32px;
   font-family: "Roboto";
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 120%;
+  letter-spacing: -2%;
+  text-transform: none;
+  text-decoration: none;
+}
+.MOBILE-Display1 {
+  font-size: 42px;
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0%;
   text-transform: none;
   text-decoration: none;
 }
@@ -625,8 +697,8 @@
   font-style: normal;
   font-family: Roboto;
   font-weight: 400px;
-  font-stretch: normal;
-  letter-spacing: 0em;
+  line-height: 130%;
+  letter-spacing: 0%;
 }
 @media(max-width: 991px) {
   .thq-grid-4 {

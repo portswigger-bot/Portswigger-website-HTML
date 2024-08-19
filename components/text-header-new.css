@@ -1,0 +1,192 @@
+.text-header-new-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text-header-new-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-header-new-container3 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: auto;
+  justify-content: center;
+  background-image: url("public/banner1.svg");
+  background-position: center;
+}
+.text-header-new-text3 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  width: 900px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.text-header-new-container4 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.text-header-new-button1 {
+  gap: 8px;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-width: 0px;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(255, 102, 51, 1);
+}
+.text-header-new-chevron-right1 {
+  width: 16px;
+  height: 16px;
+}
+.text-header-new-button2 {
+  gap: 8px;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: var(--dl-color-default-white);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+.text-header-new-chevron-right2 {
+  width: 16px;
+  height: 16px;
+}
+.text-header-new-fragment1 {
+  display: contents;
+}
+.text-header-new-text6 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.text-header-new-fragment2 {
+  display: contents;
+}
+.text-header-new-text7 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  width: 900px;
+  display: inline-block;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.text-header-new-fragment3 {
+  display: contents;
+}
+.text-header-new-text8 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.text-header-new-fragment4 {
+  display: contents;
+}
+.text-header-new-text9 {
+  fill: var(--dl-color-text-text-headingnavy);
+  color: var(--dl-color-text-text-headingnavy);
+  display: inline-block;
+  line-height: 1.15;
+  padding-top: 4px;
+  padding-left: 12px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 12px;
+  padding-bottom: 4px;
+  text-transform: none;
+  text-decoration: none;
+  background-color: var(--dl-color-backgrounds-teal2);
+}
+
+@media(max-width: 767px) {
+  .text-header-new-container3 {
+    font-size: 32px;
+  }
+  .text-header-new-text3 {
+    width: 80%;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+  .text-header-new-text7 {
+    width: 80%;
+    font-size: 42px;
+    line-height: 110%;
+    letter-spacing: 0%;
+  }
+}
+@media(max-width: 360px) {
+  .text-header-new-container3 {
+    height: auto;
+    padding-top: var(--dl-space-space-fourunits);
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .text-header-new-text3 {
+    width: 80%;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0%;
+  }
+  .text-header-new-container4 {
+    flex-direction: column;
+  }
+  .text-header-new-button1 {
+    width: 90%;
+  }
+  .text-header-new-button2 {
+    width: 90%;
+  }
+  .text-header-new-text7 {
+    width: 80%;
+    font-size: 42px;
+    line-height: 110%;
+    letter-spacing: 0%;
+  }
+  .text-header-ne-wroot-class-name {
+    height: auto;
+  }
+}

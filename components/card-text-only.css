@@ -1,4 +1,4 @@
-.card-text-only-container {
+.card-text-only-container1 {
   width: auto;
   height: auto;
   display: flex;
@@ -8,10 +8,12 @@
 }
 .card-text-only-frame5512 {
   gap: 12px;
+  flex: 1;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   padding: 28px;
+  min-height: 100%;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: rgba(223, 224, 225, 1);
@@ -22,38 +24,60 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
 }
-.card-text-only-text1 {
+.card-text-only-text2 {
   fill: var(--dl-color-default-textsecondary);
   color: var(--dl-color-default-textsecondary);
 }
-.card-text-only-container1 {
+.card-text-only-container2 {
+  gap: 8PX;
+  width: auto;
+  height: auto;
   display: flex;
-  align-items: flex-start;
+  position: relative;
+  align-items: center;
   flex-direction: row;
+  justify-content: flex-start;
 }
-.card-text-only-text2 {
-  fill: var(--dl-color-text-text-linkorange);
-  color: var(--dl-color-text-text-linkorange);
-  margin-right: var(--dl-space-space-halfunit);
+.card-text-only-link {
+  display: contents;
 }
 .card-text-only-chevron-right {
   width: 16px;
   height: 16px;
+  align-self: center;
 }
-.card-text-only-root-class-name {
+.card-text-only-fragment1 {
+  display: contents;
+}
+.card-text-only-text4 {
+  fill: var(--dl-color-text-text-headingnavy);
+  color: var(--dl-color-text-text-headingnavy);
+  display: inline-block;
+}
+.card-text-only-fragment2 {
+  display: contents;
+}
+.card-text-only-text5 {
+  fill: var(--dl-color-text-text-linkorange);
+  color: var(--dl-color-text-text-linkorange);
+  display: inline-block;
+  margin-right: 0PX;
+  text-decoration: none;
+}
+.card-text-onlyroot-class-name {
   width: 100%;
   margin-right: 20px;
 }
-.card-text-only-root-class-name1 {
+.card-text-onlyroot-class-name1 {
   margin-right: 20px;
 }
-.card-text-only-root-class-name2 {
+.card-text-onlyroot-class-name2 {
   margin-right: 0px;
 }
-.card-text-only-root-class-name3 {
+.card-text-onlyroot-class-name3 {
   width: 100%;
 }
-.card-text-only-root-class-name4 {
+.card-text-onlyroot-class-name4 {
   width: 100%;
   height: 100%;
   margin-right: 20px;

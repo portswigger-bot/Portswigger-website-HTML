@@ -1,4 +1,7 @@
-.primary-button-dark-container2951 {
+.primary-button-light-wrapper {
+  display: contents;
+}
+.primary-button-light-container {
   width: auto;
   height: auto;
   display: flex;
@@ -6,13 +9,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.primary-button-dark-button174 {
+.primary-button-light-button {
   gap: 8px;
   width: auto;
   height: auto;
   display: flex;
   padding: 12px 24px;
-  align-self: stretch;
   align-items: center;
   flex-shrink: 0;
   border-width: 0px;
@@ -20,58 +22,89 @@
   justify-content: center;
   background-color: rgba(255, 102, 51, 1);
 }
-.primary-button-dark-text3731 {
-  fill: var(--dl-color-theme-neutral-light);
-  color: var(--dl-color-theme-neutral-light);
-}
-.primary-button-dark-chevron-right145 {
+.primary-button-light-chevron-right {
   width: 16px;
   height: 16px;
 }
-.primary-button-dark-root-class-name {
+.hero-banner-light-fragment {
+  display: contents;
+}
+.hero-banner-light-text3 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.primary-button-lightroot-class-name {
   width: 100%;
   margin-top: var(--dl-space-space-unit);
 }
-.primary-button-dark-root-class-name1 {
+.primary-button-lightroot-class-name1 {
   width: 100%;
 }
-.primary-button-dark-root-class-name2 {
-  width: 100%;
-}
-
-.primary-button-dark-root-class-name4 {
+.primary-button-lightroot-class-name2 {
   width: 100%;
 }
 
-.primary-button-dark-root-class-name6 {
+.primary-button-lightroot-class-name4 {
   width: 100%;
 }
-.primary-button-dark-root-class-name7 {
+
+.primary-button-lightroot-class-name6 {
+  width: 100%;
+}
+.primary-button-lightroot-class-name7 {
   width: 100%;
   margin-top: var(--dl-space-space-unit);
 }
-
-
-.primary-button-dark-root-class-name10 {
+.primary-button-lightroot-class-name10 {
   width: 100%;
   margin-top: var(--dl-space-space-unit);
 }
-.primary-button-dark-root-class-name11 {
+.primary-button-lightroot-class-name11 {
   margin-bottom: 80px;
 }
-.primary-button-dark-root-class-name12 {
+.primary-button-lightroot-class-name12 {
   margin-bottom: 80px;
 }
-.primary-button-dark-root-class-name13 {
+.primary-button-lightroot-class-name13 {
   width: 100%;
   margin-top: var(--dl-space-space-unit);
 }
-.primary-button-dark-root-class-name14 {
+.primary-button-lightroot-class-name14 {
   width: 100%;
   margin-top: var(--dl-space-space-unit);
+}
+.primary-button-lightroot-class-name15 {
+  width: 100%;
+  margin-top: var(--dl-space-space-unit);
+}
+.primary-button-lightroot-class-name16 {
+  margin-bottom: 80px;
+}
+.primary-button-lightroot-class-name17 {
+  margin-bottom: 80px;
 }
 
-.hero-banner-light-container {
+
+
+
+
+
+
+
+@media(max-width: 360px) {
+  .primary-button-light-container {
+    width: 100%;
+  }
+}
+
+.hero-banner-light-container1 {
   width: 1140px;
   height: auto;
   display: flex;
@@ -80,14 +113,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.hero-banner-light-container1 {
+.hero-banner-light-container2 {
   display: flex;
   align-self: flex-end;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
 }
-.hero-banner-light-container2 {
+.hero-banner-light-container3 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -95,7 +128,7 @@
   padding-right: 40px;
   flex-direction: column;
 }
-.hero-banner-light-text {
+.hero-banner-light-text1 {
   fill: var(--dl-color-text-text-headingnavy);
   color: var(--dl-color-text-text-headingnavy);
   width: 100%;
@@ -103,11 +136,25 @@
   text-align: left;
   margin-bottom: 20px;
 }
-.hero-banner-light-text1 {
+.hero-banner-light-text2 {
   fill: var(--dl-color-text-text-bodyprimary);
   color: var(--dl-color-text-text-bodyprimary);
   text-align: left;
   margin-bottom: 20px;
+}
+.hero-banner-light-fragment {
+  display: contents;
+}
+.hero-banner-light-text3 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0em;
 }
 .hero-banner-light-tasksubmenu2 {
   width: 461px;

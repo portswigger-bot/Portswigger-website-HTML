@@ -1,13 +1,16 @@
-.ps-header-container1060 {
+.mega-nav-wrapper {
+  display: contents;
+}
+.mega-nav-container1 {
   width: 100%;
   height: auto;
   display: flex;
   position: relative;
 }
-.ps-header-container1061 {
+.mega-nav-container2 {
   display: none;
 }
-.ps-header-container1062 {
+.mega-nav-container3 {
   display: contents;
 }
 

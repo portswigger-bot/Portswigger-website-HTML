@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dropdown-text {
+.dropdown-text1 {
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
@@ -35,7 +35,7 @@
   justify-content: flex-end;
   background-color: rgba(255, 255, 255, 1);
 }
-.dropdown-text1 {
+.dropdown-text2 {
   color: rgba(29, 28, 26, 1);
   width: 100%;
   height: auto;

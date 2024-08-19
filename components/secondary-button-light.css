@@ -4,28 +4,14 @@
   display: flex;
   position: relative;
   align-items: flex-start;
-  flex-direction: column;
-}
-.secondary-button-light-button {
-  gap: 8px;
-  width: auto;
-  height: auto;
-  display: flex;
-  padding: 12px 24px;
-  align-items: center;
-  flex-shrink: 0;
   border-color: var(--dl-color-text-text-linkorange);
-  border-radius: 8px;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 1);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-default-white);
 }
-.secondary-button-light-text {
-  fill: var(--dl-color-text-text-linkorange);
-  color: var(--dl-color-text-text-linkorange);
+@media(max-width: 360px) {
+  .secondary-button-light-container {
+    width: 100%;
+  }
 }
-.secondary-button-light-chevron-right {
-  width: 16px;
-  height: 16px;
-}
-
-

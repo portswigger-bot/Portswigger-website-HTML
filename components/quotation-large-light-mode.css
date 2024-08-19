@@ -1,0 +1,38 @@
+.quotation-large-light-mode-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.quotation-large-light-mode-frame5519 {
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 80px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.quotation-large-light-mode-text1 {
+  fill: var(--dl-color-text-text-headingnavy);
+  color: var(--dl-color-text-text-headingnavy);
+  width: 900px;
+}
+.quotation-large-light-mode-text2 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-textsecondary);
+  width: 900px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Roboto";
+  line-height: 1.15;
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration: none;
+}
+
+

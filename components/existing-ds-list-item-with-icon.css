@@ -1,4 +1,4 @@
-.existing-ds-list-item-with-icon-container {
+.existing-ds-list-item-with-icon-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.existing-ds-list-item-with-icon-container1 {
+.existing-ds-list-item-with-icon-container2 {
   display: flex;
   align-items: flex-start;
   margin-bottom: 30px;
@@ -18,7 +18,7 @@
   margin-top: 3px;
   object-fit: cover;
 }
-.existing-ds-list-item-with-icon-text {
+.existing-ds-list-item-with-icon-text1 {
   fill: #5C5C5B;
   color: #5C5C5B;
   font-size: 18px;
@@ -26,19 +26,19 @@
   line-height: 30px;
   margin-left: 20px;
 }
-.existing-ds-list-item-with-icon-text1 {
+.existing-ds-list-item-with-icon-text2 {
   font-style: normal;
   font-weight: 700;
 }
-.existing-ds-list-item-with-icon-root-class-name {
+.existing-ds-list-item-with-iconroot-class-name {
   width: auto;
 }
-.existing-ds-list-item-with-icon-root-class-name1 {
+.existing-ds-list-item-with-iconroot-class-name1 {
   width: auto;
 }
-.existing-ds-list-item-with-icon-root-class-name2 {
+.existing-ds-list-item-with-iconroot-class-name2 {
   width: auto;
 }
-.existing-ds-list-item-with-icon-root-class-name3 {
+.existing-ds-list-item-with-iconroot-class-name3 {
   width: auto;
 }

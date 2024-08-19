@@ -1,4 +1,4 @@
-.icon-callout-set-of-3-container {
+.icon-callout-set-of-3-container1 {
   width: auto;
   height: 100%;
   display: flex;
@@ -62,21 +62,14 @@
   top: 2.5px;
   left: 0px;
   width: 90px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 80px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
 }
-.icon-callout-set-of-3-magnifyingglass2 {
-  top: 0px;
-  left: 0px;
-  width: 90px;
-  height: 80px;
-  position: absolute;
-  margin-bottom: 20px;
-}
-.icon-callout-set-of-3-text {
+.icon-callout-set-of-3-text1 {
   fill: var(--dl-color-text-text-headingnavy);
   color: var(--dl-color-text-text-headingnavy);
   align-self: center;
@@ -84,7 +77,7 @@
   text-align: center;
   margin-bottom: 20px;
 }
-.icon-callout-set-of-3-container1 {
+.icon-callout-set-of-3-container2 {
   width: auto;
   height: auto;
   display: flex;
@@ -93,7 +86,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.icon-callout-set-of-3-text1 {
+.icon-callout-set-of-3-text2 {
   fill: var(--dl-color-text-text-linkorange);
   color: var(--dl-color-text-text-linkorange);
   margin-right: var(--dl-space-space-halfunit);
@@ -102,36 +95,36 @@
   width: 16px;
   height: 16px;
 }
-.icon-callout-set-of-3-root-class-name {
+.icon-callout-set-of-3root-class-name {
   width: 100%;
   min-height: 100%;
 }
-.icon-callout-set-of-3-root-class-name1 {
+.icon-callout-set-of-3root-class-name1 {
   width: 100%;
   align-self: center;
 }
-.icon-callout-set-of-3-root-class-name2 {
+.icon-callout-set-of-3root-class-name2 {
   width: 100%;
 }
-.icon-callout-set-of-3-root-class-name3 {
+.icon-callout-set-of-3root-class-name3 {
   width: 100%;
   min-height: 100%;
 }
-.icon-callout-set-of-3-root-class-name4 {
+.icon-callout-set-of-3root-class-name4 {
   width: 100%;
   align-self: center;
 }
-.icon-callout-set-of-3-root-class-name5 {
+.icon-callout-set-of-3root-class-name5 {
   width: 100%;
 }
-.icon-callout-set-of-3-root-class-name6 {
+.icon-callout-set-of-3root-class-name6 {
   width: 100%;
   min-height: 100%;
 }
-.icon-callout-set-of-3-root-class-name7 {
+.icon-callout-set-of-3root-class-name7 {
   width: 100%;
   align-self: center;
 }
-.icon-callout-set-of-3-root-class-name8 {
+.icon-callout-set-of-3root-class-name8 {
   width: 100%;
 }

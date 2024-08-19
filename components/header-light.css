@@ -1,4 +1,4 @@
-.header-light-container {
+.header-light-container1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -25,20 +25,6 @@
   display: flex;
   align-items: center;
 }
-.header-light-container1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.header-light-text {
-  fill: var(--dl-color-text-text-bodyprimary);
-  color: var(--dl-color-text-text-bodyprimary);
-  margin-right: var(--dl-space-space-halfunit);
-}
-.header-light-chevron-down {
-  width: 16px;
-  height: 16px;
-}
 .header-light-container2 {
   display: flex;
   align-items: center;
@@ -53,22 +39,12 @@
   width: 16px;
   height: 16px;
 }
-.header-light-text2 {
-  fill: var(--dl-color-text-text-bodyprimary);
-  color: var(--dl-color-text-text-bodyprimary);
-  margin-right: 0px;
-}
-.header-light-text3 {
-  fill: var(--dl-color-text-text-bodyprimary);
-  color: var(--dl-color-text-text-bodyprimary);
-  margin-right: 0px;
-}
 .header-light-container3 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.header-light-text4 {
+.header-light-text2 {
   fill: var(--dl-color-text-text-bodyprimary);
   color: var(--dl-color-text-text-bodyprimary);
   margin-right: var(--dl-space-space-halfunit);
@@ -76,6 +52,16 @@
 .header-light-chevron-down2 {
   width: 16px;
   height: 16px;
+}
+.header-light-text3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  margin-right: 0px;
+}
+.header-light-text4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  margin-right: 0px;
 }
 .header-light-container4 {
   display: flex;
@@ -91,6 +77,20 @@
   width: 16px;
   height: 16px;
 }
+.header-light-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-light-text6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.header-light-chevron-down4 {
+  width: 16px;
+  height: 16px;
+}
 .header-light-button {
   gap: 8px;
   height: 40px;
@@ -102,7 +102,7 @@
   justify-content: center;
   background-color: rgba(255, 102, 51, 1);
 }
-.header-light-text6 {
+.header-light-text7 {
   fill: var(--dl-color-default-white);
   color: var(--dl-color-default-white);
 }
